@@ -1,0 +1,29 @@
+{
+  "name": "wdd340",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Brinley-precious/wdd340#readme",
+  "bugs": {
+    "url": "https://github.com/Brinley-precious/wdd340/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brinley-precious/wdd340.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^7.0.2",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
