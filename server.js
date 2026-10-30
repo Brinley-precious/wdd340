@@ -22,22 +22,22 @@ app.set('views', path.join(__dirname, 'src/views'));
 // Serve static files from the "public" directory
 app.use(express.static(path.join(__dirname, 'public')));
  
-app.get('/', (req, res) => {
+app.get('/', async (req, res) => {
 const title = 'Home';
    res.render('home', { title });
 });
 
-app.get('/organizations', (req, res) => {
+app.get('/organizations', async (req, res) => {
     const title = 'Organizations';
     res.render('organisations', { title });
 });
 
-app.get('/projects', (req, res) => {
+app.get('/projects', async (req, res) => {
     const title = 'Projects';
     res.render('projects', { title });
 });
 
-app.get('/categories', (req, res) => {
+app.get('/categories', async (req, res) => {
     const title = 'Categories';
     res.render('categories', { title });
 });
