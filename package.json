@@ -1,14 +1,14 @@
 {
-  "name": "wdd340",
+  "name": "cse340",
   "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/Brinley-precious/wdd340#readme",
+  "description": "CSE 340 - Web Development II",
+  "homepage": "https://github.com/Brinley-precious/cse340#readme",
   "bugs": {
-    "url": "https://github.com/Brinley-precious/wdd340/issues"
+    "url": "https://github.com/Brinley-precious/cse340/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Brinley-precious/wdd340.git"
+    "url": "git+https://github.com/Brinley-precious/cse340.git"
   },
   "license": "ISC",
   "author": "",
