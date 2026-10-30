@@ -1,11 +1,34 @@
-<%- include('partials/header')%>
-    <main>
-        <h1><%= title %></h1>
-        <h2>Upcoming Service Projects</h2>
-        <ul>
-            <li>Park Cleanup - Join us to clean up local parks and make them beautiful!</li>
-            <li>Food Drive - Help collect and distribute food to those in need.</li>
-            <li>Community Tutoring - Volunteer to tutor students in various subjects.</li>
-        </ul>
+<%- include('partials/header') %>
+
+    <main class="page-container">
+        <section class="page-heading">
+            <p class="eyebrow">GET INVOLVED</p>
+            <h1>
+                <%= title %>
+            </h1>
+            <p>Every contribution matters. Explore these service opportunities and find a way to get involved.</p>
+        </section>
+
+        <section class="project-grid" aria-label="Upcoming service projects">
+            <article class="project-card">
+                <span class="project-tag">Environment</span>
+                <h2>Park Cleanup</h2>
+                <p>Join other volunteers to clean up local parks, care for shared spaces, and make them more welcoming.
+                </p>
+            </article>
+
+            <article class="project-card">
+                <span class="project-tag">Community Support</span>
+                <h2>Food Drive</h2>
+                <p>Help collect and distribute food to people and families who need extra support.</p>
+            </article>
+
+            <article class="project-card">
+                <span class="project-tag">Education</span>
+                <h2>Community Tutoring</h2>
+                <p>Support students by sharing your knowledge and helping them develop their learning skills.</p>
+            </article>
+        </section>
     </main>
-<%- include('partials/footer') %>
+
+    <%- include('partials/footer') %>

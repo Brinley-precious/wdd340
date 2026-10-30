@@ -4,15 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= title %></title>
+    <meta name="description"
+        content="GoodTogether connects people with organisations and meaningful community service opportunities.">
+    <title>
+        <%= title %> | GoodTogether
+    </title>
     <link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/organizations">Organizations</a></li>
-            <li><a href="/projects">Projects</a></li>
-        </ul>
-    </nav>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="/" aria-label="GoodTogether home">
+                <span class="brand-mark" aria-hidden="true">G</span>
+                <span>Good<span class="brand-accent">Together</span></span>
+            </a>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="/">Home</a>
+                <a href="/organizations">Organizations</a>
+                <a href="/projects">Projects</a>
+                <a href="/categories">Categories</a>
+            </nav>
+        </div>
+    </header>

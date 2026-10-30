@@ -1,10 +1,58 @@
-<%- include('partials/header')%>
-  <main>
-        <h1><%= title %></h1>
-        <h2>Welcome to the CSE 340 Service Network!</h2>
-        <p>Our mission is to promote service across the world by connecting volunteers with service opportunities in their
-            community.</p>
-        
-        <img class="main-logo" src="images/cse340-service-network.png" alt="CSE 340 Service Network Logo">
+<%- include('partials/header') %>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">MAKE A DIFFERENCE, TOGETHER</p>
+                <h1>Good things happen when <span>we come together.</span></h1>
+                <p class="hero-description">
+                    Discover meaningful ways to serve, connect with organisations,
+                    and take part in projects that make your community stronger.
+                </p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="/projects">Explore projects</a>
+                    <a class="button button-secondary" href="/organizations">Meet our organisations</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img class="main-logo" src="/images/cse340-service-network.png"
+                    alt="GoodTogether community service network">
+            </div>
+        </section>
+
+        <section class="intro-section">
+            <p class="eyebrow">WHY GOODTOGETHER?</p>
+            <h2>Make your time and talents count.</h2>
+            <p>
+                GoodTogether brings volunteers and service opportunities closer.
+                Whether you care about education, the environment, health, or
+                community development, there are meaningful ways to get involved.
+            </p>
+        </section>
+
+        <section class="feature-grid" aria-label="Explore GoodTogether">
+            <article class="feature-card">
+                <span class="feature-number">01</span>
+                <h3>Find projects</h3>
+                <p>Explore service activities and discover ways to contribute.</p>
+                <a href="/projects">Explore projects &rarr;</a>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-number">02</span>
+                <h3>Meet organisations</h3>
+                <p>Connect with groups working to create positive change.</p>
+                <a href="/organizations">View organisations &rarr;</a>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-number">03</span>
+                <h3>Explore categories</h3>
+                <p>Find causes and service opportunities that interest you.</p>
+                <a href="/categories">Browse categories &rarr;</a>
+            </article>
+        </section>
     </main>
-<%- include('partials/footer') %>
+
+    <%- include('partials/footer') %>
